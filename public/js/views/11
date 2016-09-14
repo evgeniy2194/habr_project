@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <script data-main="/js/init" src="js/lib/require.js"></script>
+    <link rel="stylesheet" href="/style/bootstrap.min.css"/>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#secure">Secure</a></li>
+            </ul>
+            <div id="user-info"></div>
+        </div>
+    </nav>
+    <div id="main"></div>
+</div>
+</body>
+</html>

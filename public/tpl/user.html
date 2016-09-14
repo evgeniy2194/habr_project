@@ -1,0 +1,12 @@
+<ul class="nav navbar-nav navbar-right">
+    <li>
+        <p class="navbar-text">Вы вошли как гость <%= user.auth ? user.login.toUpperCase() : 'Гость' %></p>
+    </li>
+    <li>
+        <% if(user.auth){ %>
+            <a href="" id="logout">Logout</a>
+        <% } else {%>
+            <a href="#login">Login</a>
+        <% } %>
+    </li>
+</ul>
